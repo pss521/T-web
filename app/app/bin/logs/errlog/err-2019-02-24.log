@@ -1,0 +1,27 @@
+[2019-02-24T12:28:33.243] [ERROR] err - [login][POST][500]: { Error: getaddrinfo ENOTFOUND t.zhcweb.com t.zhcweb.com:8088
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 't.zhcweb.com',
+  host: 't.zhcweb.com',
+  port: '8088' }
+[2019-02-24T21:13:22.994] [ERROR] err - [login][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }
+[2019-02-24T21:13:23.725] [ERROR] err - [currentStock/Query?token=eyJhcHBLZXkiOiI1ZTYwYjdhNi1kZGQ5LTRhOTctYThhMy1hMzE3OGJkYjYwMDQiLCJhdXRoSW5mbyI6ImV5SmhiR2NpT2lKUVV6STFOaUo5LmV5SmhZMk5sYzNOZmRHOXJaVzRpT2lJek1tRmpOalkyT1MxaFpHWTRMVFF4WVRZdFlXSXlOQzFrTVRjMllUTTVNbVprT0RraUxDSnpkV0lpT2lKbExXTnZiVzFsY21ObElpd2laR0YwWVhNaU9pSTNOMlE1WVRSaE5ESmxNV0kyTWpVMU1HUTBZekU1TXpNNFltUm1NMlZtTXlJc0ltVjRjQ0k2TVRVMU1UQTBNems0TVgwLmQtdWZHVzhRRWRBb1J4b1FPZ0pfdTA2V0RiUXZWTWRSQzljaUtWaHNkM3NDWWxtdVYxVzB4ZklkQnN4ZEpRdEFIemg0OTdXam1ZMTNjT0cwNExCeEVFS2J0SElybkUycUNsME8xSnJVYjJrRmRrUk43cW9ubFQtNW05VGZMa3pSVml1eHZhT2FMSWhlYm1JZEFaNkhCMXZQOXdYMlQtUVNPMFlIejZ6WFJfZyIsIm9yZ0lkIjoiIn0=][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }

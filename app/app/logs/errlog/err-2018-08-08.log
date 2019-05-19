@@ -1,0 +1,126 @@
+[2018-08-08T20:23:12.874] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:23:42.255] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:24:45.732] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:25:06.939] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:25:16.159] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:25:22.666] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:25:32.419] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:27:25.813] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:27:30.794] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:27:51.235] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:28:00.664] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:28:03.884] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T20:36:34.517] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }
+[2018-08-08T22:07:39.120] [ERROR] err - [login][POST][500]: { Error: connect ECONNREFUSED 127.0.0.1:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8088 }

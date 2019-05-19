@@ -1,0 +1,143 @@
+<script id="productDetailTmp" type="text/html">
+<header class="m-navbar BackgroundColor">
+    <a id="productList" class="navbar-item">
+        <i class="layui-icon layui-icon-left" style="font-size: 21px;color: #fff"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title" style="color: #fff">商品详情</span>
+    </div>
+</header>
+<div class="m-cell">
+    <div class="cell-item" style="background-color:#eee;">
+        <div class="cell-left">01001/汰渍洗衣液（2.5kg）</div>
+        <div class="cell-right"></div>
+    </div>
+</div>
+<div class="cell-item">
+    <div class="cell-right" style="display:block;width: 49%;">
+        <div style="text-align: left;">
+            <span>现存量：</span>
+            <br/>
+            <span style="float:left;">单位：</span>
+            <div style="width:20px;float:left;background-color:#daeeee;text-align:center;border:1px solid green;">瓶</div>
+        </div>
+    </div>
+    <div class="cell-right" style="display:block;width: 49%;">
+        <div style="text-align: left;">
+            <span>可用量：</span>
+            <br/>
+        </div>
+    </div>
+</div>
+
+<div class="cell-item">
+    <div class="cell-right" style="display:block;width: 49%;">
+        <div style="text-align: left;">
+            <span style="margin-top:15px;float:left;width:30%;">仓库：</span>
+            <div style="">
+                <select name="select3" style="margin-top: 15px;">
+                    <option value="1">测试</option>
+                    <option value="2">移动客户移动客户</option>
+                </select>
+                <i style="position: absolute;
+                margin-top: 18px;
+                margin-left: -16px;
+                font-size: 10px;" class="layui-icon layui-icon-down"></i>
+            </div>
+            <br/>
+            <span style="float:left;">批次：</span>
+        </div>
+    </div>
+    <div class="cell-right" style="display:block;width: 49%;">
+        <div style="text-align: left;margin-top:15px;">
+            <span style="color:#ff4500;">数量：</span>
+            <input type="number" style="width:72px;">
+            <br/>
+            <div class="layui-row">
+                <button href="javascript:;" class="btn btn-primary" style="width: 48%;margin-top:15px;float:right;background-color:#00caca;">取批号</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cell-item">
+    <div class="cell-right" style="display:block;width: 49%;">
+        <div style="text-align: left;margin-top:15px;">
+            <span>零售价：</span>
+            <span>15.00元/瓶</span>
+            <br/>
+            <span style="float:left;">结存成本：</span>
+        </div>
+    </div>
+    <div class="cell-right" style="display:block;width: 49%;">
+        <div style="text-align: left;margin-top:15px;">
+            <span>最低售价：</span>
+            <span>15.00元/瓶</span>
+            <br/>
+            <span style="float:left;">最新售价：</span>
+            <span>12.76元/瓶</span>
+        </div>
+    </div>
+</div>
+
+<div class="cell-item">
+    <div class="cell-left layui-form" style="display:block;width: 35%;">
+        <div class="layui-form-item">
+            <div class="layui-input-block" style="margin-left:0px;margin-top:10px;">
+                <input type="checkbox" name="" title="赠品" lay-skin="primary">
+            </div>
+        </div>
+    </div>
+    <div class="cell-right" style="display:block;width: 65%;">
+        <div style="text-align: left;margin-left:0px;">
+            <span style="color:#ff4500;float:left;margin-top:20px;">数量：</span>
+            <input type="number" style="margin-top:20px;width:72px;float:left;">
+            <button href="javascript:;" class="btn btn-primary" style="width: 30%;height:25px;margin-top:15px;float:left;background-color:#00caca;line-height:25px;margin-left:20%;">取价</button>
+        </div>
+    </div>
+</div>
+
+<div class="cell-item" style="padding-top:0px;">
+    <div class="cell-left" style="display:block;width: 35%;">
+
+    </div>
+    <div class="cell-right" style="display:block;width: 65%;">
+        <div style="text-align: left;margin-left:0px;">
+            <span style="color:#ff4500;float:left;margin-top:20px;">金额：￥0.00</span>
+        </div>
+    </div>
+</div>
+<div class="cell-item">
+<div class="weui-cell weui-cell_select weui-cell_select-after">
+    <div class="weui-cell__hd">
+        <label for="" class="weui-label">项目：</label>
+    </div>
+    <div class="weui-cell__bd">
+        <select class="weui-select" name="select2">
+        <option value="1">零售</option>
+        <option value="3">饮料</option>
+        </select>
+    </div>
+</div>
+</div>
+<div class="cell-item">
+    <div class="weui-cell weui-cell">
+        <div class="weui-cell__hd">
+            <label for="" class="weui-label">备注</label>
+        </div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="请输入">
+        </div>
+    </div>
+</div>
+<div class="weui-footer weui-footer_fixed-bottom" style="width: 100%;height: 45px;z-index: 999;background-color: #fff;line-height: 45px;bottom: 0;">
+        <div class="layui-row">
+            <div class="layui-col-xs7 layui-col-sm7 layui-col-md7">
+                &nbsp;
+            </div>
+            <div id="productListReturn" style="background-color:#00CACA;color:#fff;" class="layui-col-xs5 layui-col-sm5 layui-col-md5">
+                加入销货单
+            </div>
+        </div>
+    </div>
+</script>

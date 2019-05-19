@@ -1,0 +1,59 @@
+<script id="addApplicationGoodsTmp" type="text/html">
+    <header class="m-navbar BackgroundColor">
+        <a id="pullSignal" class="navbar-item">
+            <i class="layui-icon layui-icon-left" style="font-size: 21px;color: #fff"></i>
+        </a>
+        <div class="navbar-center">
+            <span class="navbar-title" style="color: #fff">新增要货申请</span>
+        </div>
+    </header>
+    <div class="weui-cells">
+        <div class="weui-cell weui-cell_select weui-cell_select-after">
+            <div class="weui-cell__hd">
+                <label for="" class="weui-label">待出仓库</label>
+            </div>
+            <div class="weui-cell__bd">
+                <select class="weui-select" name="select2" id="OutWarehouse">
+                    <!-- <option value="1">总仓</option>
+                    <option value="2">中华路一店</option>
+                    <option value="3">英国</option> -->
+                </select>
+            </div>
+        </div>
+        <div class="weui-cell">
+            <div class="weui-cell__hd">
+                <label for="" class="weui-label">备注：</label>
+            </div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="text" placeholder="请输入">
+            </div>
+            <div class="weui-cell__ft" id="addoption">
+                <i class="layui-icon layui-icon-down"></i>
+            </div>
+        </div>
+
+        <div style="display: none" id="optiondisplay">
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">要货仓库</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2" id="InWarehouse">
+                        <!-- <option value="1">总仓</option>
+                        <option value="2">中华路一店</option>
+                        <option value="3">英国</option> -->
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_switch">
+                <div class="weui-cell__bd">自动生成调拨单</div>
+                <div class="weui-cell__ft">
+                    <input class="weui-switch" type="checkbox">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="weui-footer weui-footer_fixed-bottom" id="selectproductlist" style="width: 100%;height: 45px;z-index: 999;background-color: #00FFFF;line-height: 45px;bottom: 0;">
+        <span style="color: #fff;font-size:16px">选存货</span>
+    </div>
+</script>

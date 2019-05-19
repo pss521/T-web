@@ -1,0 +1,52 @@
+<script id="selectproductlistTmp" type="text/html">
+    <header class="m-navbar BackgroundColor">
+        <a id="addApplicationGoods" class="navbar-item">
+            <i class="layui-icon layui-icon-left" style="font-size: 21px;color: #fff"></i>
+        </a>
+        <div class="navbar-center">
+            <span class="navbar-title" style="color: #fff">选存货</span>
+        </div>
+        <a class="navbar-item" style="color: #fff">
+            <!-- <span style="margin-right: 10px;font-size: 18px">收款</span><i id="add_exit" class="layui-icon layui-icon-add-1" style="font-size: 21px;"></i> -->
+        </a>
+    </header>
+    <div class="weui-search-bar" id="searchBar">
+        <form class="weui-search-bar__form">
+            <div class="weui-search-bar__box">
+                <i class="weui-icon-search"></i>
+                <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+                <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+            </div>
+            <label class="weui-search-bar__label" id="searchText">
+                <i class="weui-icon-search"></i>
+                <span>搜索</span>
+            </label>
+        </form>
+        <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+    </div>
+    <div class="layui-tab">
+        <ul class="layui-tab-title">
+          <li class="layui-this" style="width:50%">全部商品</li>
+          <li style="width:50%">新品推荐</li>
+        </ul>
+        <div class="layui-tab-content">
+          <div class="layui-tab-item layui-show" id='product_list'></div>
+          <div class="layui-tab-item">内容3</div>
+        </div>
+    </div>
+    <div style="height:16px"></div>
+    <div class="weui-footer weui-footer_fixed-bottom" style="width: 100%;height: 45px;z-index: 999;background-color: #fff;line-height: 45px;bottom: 0;">
+        <div class="layui-row">
+            <div id="addApplicationGoods_detail" class="layui-col-xs7 layui-col-sm7 layui-col-md7">
+                <div style="width: 50px;height: 50px;border-radius: 49%;background-color: #00CACA;color:#fff;margin-top: -20px;margin-left: 10px;line-height: 50px;">
+                        <span class="badge badge-danger" style="position: absolute;margin-top: -5px;margin-left: 23px;" id="ShoppingCartNum">0</span>
+                        <i style="font-size: 27px;" class="layui-icon layui-icon-cart"></i>
+                </div>
+                
+            </div>
+            <div style="background-color:#00CACA;color:#fff;" class="layui-col-xs5 layui-col-sm5 layui-col-md5" id="addproduct">
+                加入要货单
+            </div>
+        </div>
+    </div>
+    </script>

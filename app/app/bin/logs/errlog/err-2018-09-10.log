@@ -1,0 +1,45 @@
+[2018-09-10T22:19:28.200] [ERROR] err - [login][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }
+[2018-09-10T23:32:08.548] [ERROR] err - [login][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }
+[2018-09-10T23:34:25.325] [ERROR] err - [StockRequest/GetStockRequest_InWarehouse?token=eyJhcHBLZXkiOiI1ZTYwYjdhNi1kZGQ5LTRhOTctYThhMy1hMzE3OGJkYjYwMDQiLCJhdXRoSW5mbyI6ImV5SmhiR2NpT2lKUVV6STFOaUo5LmV5SmhZMk5sYzNOZmRHOXJaVzRpT2lJM05ESTFabU0xTlMxaFlXUTVMVFF5TldVdE9XRmtaQzFtWmpZM1lXTmxNbVEyWlRZaUxDSnpkV0lpT2lKbExXTnZiVzFsY21ObElpd2laR0YwWVhNaU9pSTNOMlE1WVRSaE5ESmxNV0kyTWpVMU1HUTBZekU1TXpNNFltUm1NMlZtTXlJc0ltVjRjQ0k2TVRVek5qWXlNelkwTkgwLlVVSHpCOEItWWFRc3gyeEF3djdjZV9ueVZLMEhNMW1RRDUxaWVDLVM3Mm5VVVJDWTVyazg1cUVhb2JZOU1GMVpJOUpOMldOUkkxcWUyelJVaUtVUmNVX0x6UWpvemFtUFRISFFBeWdTb1NfaHViSWlIa3U5NVh2clpXVklVQ1Q2WHBlUmNTcnZmMlZ5M1M3bVJDNXpPQzhFT2J5b1BtWjJ6WVpVLWk4RWVIQSIsIm9yZ0lkIjoiIn0=][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }
+[2018-09-10T23:59:28.558] [ERROR] err - [currentStock/Query?token=eyJhcHBLZXkiOiI1ZTYwYjdhNi1kZGQ5LTRhOTctYThhMy1hMzE3OGJkYjYwMDQiLCJhdXRoSW5mbyI6ImV5SmhiR2NpT2lKUVV6STFOaUo5LmV5SmhZMk5sYzNOZmRHOXJaVzRpT2lJNU1UYzRPVFUwT1MweE5ERmxMVFJoTW1RdE9XSTBaUzFtTVRFMlpqTm1OREF3TW1VaUxDSnpkV0lpT2lKbExXTnZiVzFsY21ObElpd2laR0YwWVhNaU9pSTNOMlE1WVRSaE5ESmxNV0kyTWpVMU1HUTBZekU1TXpNNFltUm1NMlZtTXlJc0ltVjRjQ0k2TVRVek5qWXlOVEUwTjMwLk92QmdBMFJfOUxoVFJMWVVPcFNJcGNqaUxoYjRRY25CcGRKOTRscnpmUThLTURwaG9tTFFJeGhlUVdHa3VPeXN2S1NSa0M0Zk1RV3d5LXBvZUU5cjgyUk5NeUxkMG5nSWY2WklLMHdBNnRlQVVYaVM0MUxaZWpxeFNQLUZuS0ZHd2h1NjVzb0FfWU1oWjRsM0FUcVlsYzdmbHBjMW1haEdYRnRNMEZPdkhqayIsIm9yZ0lkIjoiIn0=][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }
+[2018-09-10T23:59:47.026] [ERROR] err - [StockRequest/GetStockRequest_OutWarehouse?token=eyJhcHBLZXkiOiI1ZTYwYjdhNi1kZGQ5LTRhOTctYThhMy1hMzE3OGJkYjYwMDQiLCJhdXRoSW5mbyI6ImV5SmhiR2NpT2lKUVV6STFOaUo5LmV5SmhZMk5sYzNOZmRHOXJaVzRpT2lJeE1qRmtNV0U1T1MwMFpqWXdMVFJpTTJZdE9EWTBZUzB3Tmpnd1pEQmhZVGRsWldFaUxDSnpkV0lpT2lKbExXTnZiVzFsY21ObElpd2laR0YwWVhNaU9pSTNOMlE1WVRSaE5ESmxNV0kyTWpVMU1HUTBZekU1TXpNNFltUm1NMlZtTXlJc0ltVjRjQ0k2TVRVek5qWXlOVEUyTm4wLk10ck03S2VxY2hUQ0NHYWlUZDN0bUtiUWFHSjNWQWVGc0JUbHA0c3gwWWw2Z2FOclhkMmdsUWRoZnRsQUU5VGpycmF0MU1Zd0czc09KQm4tanBMUTRvOGE0V0YtVW9mOXhwSDBzSUwtRTk3SkdTSGY4bkg1eDNGbHY3SlNyV2JGOWhpSGdKcWNJLW9XSGtZX3VaaGNwWE4tRGtETzRhMkZPYUpjRElHT0VzRSIsIm9yZ0lkIjoiIn0=][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }

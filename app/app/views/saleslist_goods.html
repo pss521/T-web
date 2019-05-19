@@ -1,0 +1,139 @@
+<script id="saleslist_goodsTmp" type="text/html">
+    <header class="m-navbar BackgroundColor">
+        <a id="order" class="navbar-item">
+            <i class="layui-icon layui-icon-left" style="font-size: 21px;color: #fff"></i>
+        </a>
+        <div class="navbar-center">
+            <span class="navbar-title" style="color: #fff">新增销货单</span>
+        </div>
+    </header>
+
+    <div class="weui-cells weui-cells_form">
+        <div class="weui-cell weui-cell_select weui-cell_select-after">
+            <div class="weui-cell__hd">
+                <label for="" class="weui-label">客户：</label>
+            </div>
+            <div class="weui-cell__bd">
+                <select class="weui-select" name="select2" id='customer_list'>
+                    
+                </select>
+            </div>
+        </div>
+        <div class="weui-cell weui-cell">
+            <div class="weui-cell__hd"><label for="" class="weui-label">备注</label></div>
+            <div class="weui-cell__bd">
+                <input class="weui-input" type="text" id="Memo" placeholder="请输入">
+            </div>
+            <div class="weui-cell__ft" id="up_down">
+                <i class="layui-icon layui-icon-down"></i>
+            </div>
+        </div>
+        <div id="optiondisplay" style="display: none;">
+            <div class="weui-cell">
+                <div class="weui-cell__hd"><label class="weui-label">应收余额</label></div>
+                <div class="weui-cell__bd">
+                <input class="weui-input" type="number" pattern="[0-9]*" value='0.00'>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">仓库：</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2" id='warehouse'>
+
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">项目：</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2" id='project_list'>
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">运输方式：</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2">
+                        <!-- <option value="1">测试</option>
+                        <option value="2">移动客户</option> -->
+                    </select>
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_select weui-cell_select-after">
+                <div class="weui-cell__hd">
+                    <label for="" class="weui-label">业务员：</label>
+                </div>
+                <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2"  id="person">
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="m-cell">
+                <div class="weui-cell weui-cell_switch">
+                    <div class="weui-cell__bd">录入存货时优先取默认仓库</div>
+                    <div class="weui-cell__ft">
+                        <input class="weui-switch" type="checkbox">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="one_price">
+        
+    </div>
+    <div style="height:90px;">
+
+    </div>
+
+    <div class="weui-footer weui-footer_fixed-bottom" style="width: 100%;height: 45px;z-index: 999;background-color: #fff;bottom: 45px;">
+        <div class="weui-cell__bd">
+            <div class="cell-item" style="background-color: #D9FFFF;">
+                <div class="cell-right" style="display:block;width: 33%;">
+                    <div style="text-align: center;">
+                        <span>商品数</span><br/>
+                        <span style="color: red;" id="product_num">0</span>
+                    </div>
+                </div>
+                <div class="cell-right" style="display:block;width: 33%;">
+                    <div style="text-align: center;">
+                        <span>总件数</span><br/>
+                        <span style="color: red;" id="total_num">0</span>
+                    </div>
+                </div>
+                <div class="cell-right" style="display:block;width: 33%;">
+                    <div style="text-align: center;">
+                        <span>总金额</span><br/>
+                        <span style="color: red;" id="total_money">0.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="weui-footer weui-footer_fixed-bottom" style="width: 100%;height: 45px;z-index: 999;background-color: #fff;bottom: 0;">
+        <div class="layui-row">
+            <div class="layui-col-xs3" id="productList">
+                <i class="layui-icon layui-icon-app"></i>
+                <br/> 选存货
+            </div>
+            <div class="layui-col-xs3" id="qujia">
+                <i class="layui-icon layui-icon-rmb"></i>
+                <br/> 取价
+            </div>
+            <div class="layui-col-xs3">
+                <i class="layui-icon layui-icon-spread-left"></i>
+                <br/> 取批货
+            </div>
+            <div style="background-color:#1E9FFF;height:45px;line-height:45px;color:#fff" class="layui-col-xs3" id="submit">
+                结算
+            </div>
+        </div>
+    </div>
+</script>

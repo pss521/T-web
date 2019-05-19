@@ -1,0 +1,36 @@
+[2018-09-11T00:14:16.371] [ERROR] err - [StockRequest/GetStockRequestsList?token=eyJhcHBLZXkiOiI1ZTYwYjdhNi1kZGQ5LTRhOTctYThhMy1hMzE3OGJkYjYwMDQiLCJhdXRoSW5mbyI6ImV5SmhiR2NpT2lKUVV6STFOaUo5LmV5SmhZMk5sYzNOZmRHOXJaVzRpT2lJMk5HTXhNamd6TkMwM05ESXhMVFF6WXprdE9XWmlOQzA0TWpFd05EQTVNV0V3WkRZaUxDSnpkV0lpT2lKbExXTnZiVzFsY21ObElpd2laR0YwWVhNaU9pSTNOMlE1WVRSaE5ESmxNV0kyTWpVMU1HUTBZekU1TXpNNFltUm1NMlZtTXlJc0ltVjRjQ0k2TVRVek5qWXlOakF6TlgwLkFUb0hNOHZaclB2MEtUTVBTMndRZlRpd3FRanVWSnZvX0pOb0RncEcwbHppaXNWeEtvYUhmUVdNdGxqcFFGNVFVRFZyMWZYTUh1VUhKaG01anBEbWZLdWoyblJGTUF2OFM3UWpKVHcwQ2o0NWRyWXdhZmxfZ3ZYTEVQLWgwbGlFYkwwRGlFU3pZeHFfMHViQm1Wc05KajZpX0RESU5IOV9tZUI0UmlaVFJiUSIsIm9yZ0lkIjoiIn0=][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }
+[2018-09-11T00:26:44.319] [ERROR] err - [StockRequest/GetStockRequest_OutWarehouse?token=eyJhcHBLZXkiOiI1ZTYwYjdhNi1kZGQ5LTRhOTctYThhMy1hMzE3OGJkYjYwMDQiLCJhdXRoSW5mbyI6ImV5SmhiR2NpT2lKUVV6STFOaUo5LmV5SmhZMk5sYzNOZmRHOXJaVzRpT2lJNE5UZGtPR1ZqTWkxaE9UazRMVFF4TmpFdFltWXlNUzA1WWpkaU9URm1ObUV6WlRjaUxDSnpkV0lpT2lKbExXTnZiVzFsY21ObElpd2laR0YwWVhNaU9pSTNOMlE1WVRSaE5ESmxNV0kyTWpVMU1HUTBZekU1TXpNNFltUm1NMlZtTXlJc0ltVjRjQ0k2TVRVek5qWXlOamM0TTMwLkxyRF85bzNKUkZtT3N3TndOajJ1NERUYWphdnNQYUd6SnMyZHBaSnExSlV0RDlFZDhZemlOOUlWYmxSU2h4dFA2TVItMDBCeUNrV0dNODc4Nl8xSV9jSE5hdW5PWllVQWktbUpic2xsbXAzQThfMk5WWENrakE3am1pT25NZlJOTWdSbUVFQ0tPdUxLTEFVczdZRGl6QXZoR3NCOFhBUTRNdHNBQ1ktYlZxZyIsIm9yZ0lkIjoiIn0=][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }
+[2018-09-11T00:26:58.447] [ERROR] err - [currentStock/Query?token=eyJhcHBLZXkiOiI1ZTYwYjdhNi1kZGQ5LTRhOTctYThhMy1hMzE3OGJkYjYwMDQiLCJhdXRoSW5mbyI6ImV5SmhiR2NpT2lKUVV6STFOaUo5LmV5SmhZMk5sYzNOZmRHOXJaVzRpT2lJM05ETXhPRGxqTUMxaE5ESXlMVFExWlRFdFlUWXdOUzA1TTJSbE56QTFZakF3Wm1NaUxDSnpkV0lpT2lKbExXTnZiVzFsY21ObElpd2laR0YwWVhNaU9pSTNOMlE1WVRSaE5ESmxNV0kyTWpVMU1HUTBZekU1TXpNNFltUm1NMlZtTXlJc0ltVjRjQ0k2TVRVek5qWXlOamM1TjMwLkU4UTRiZWdRT2xRMVI2NmxIXzBINk9raXlTcl9MMVpJd29zUWFLbmh2WWRjdFZ4WFp3TmNtM0pVbUtuV1Y5Z1NySE54LUJOTEVPWlBmYmRBaElIVGlPNXlDTFR0NkFKWEh3SlhuN3hybGIzSGhqcmhYcVlCT2tjd3RmVk02QXFTNk1KRzNwTklidHVXQ0tlN3FSWXQ2ZUV5VTFUVzRMTzZiTjJ2ZGdpR0h3ZyIsIm9yZ0lkIjoiIn0=][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }
+[2018-09-11T23:11:37.014] [ERROR] err - [login][POST][500]: { Error: connect ETIMEDOUT 122.14.221.177:8088
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '122.14.221.177',
+  port: 8088 }

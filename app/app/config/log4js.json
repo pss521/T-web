@@ -1,0 +1,85 @@
+{
+  "replaceConsole": true,
+  "appenders": {
+    "stdout": {
+      "type": "stdout"
+    },
+    "req": {
+      "type": "dateFile",
+      "filename": "logs/reqlog/",
+      "pattern": "req-yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "maxLogSize": 104800,
+      "backups": 100
+    },
+    "httpclireq": {
+      "type": "dateFile",
+      "filename": "logs/httpclireq_log/",
+      "pattern": "req-yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "maxLogSize": 104800,
+      "backups": 100
+    },
+    "httpclires": {
+      "type": "dateFile",
+      "filename": "logs/httpclires_log/",
+      "pattern": "res-yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "maxLogSize": 104800,
+      "backups": 100
+    },
+    "err": {
+      "type": "dateFile",
+      "filename": "logs/errlog/",
+      "pattern": "err-yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "maxLogSize": 104800,
+      "backups": 100
+    },
+    "oth": {
+      "type": "dateFile",
+      "filename": "logs/othlog/",
+      "pattern": "oth-yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "maxLogSize": 104800,
+      "backups": 100
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": [
+        "stdout",
+        "req"
+      ],
+      "level": "debug"
+    },
+    "httpclireq": {
+      "appenders": [
+        "stdout",
+        "httpclireq"
+      ],
+      "level": "info"
+    },
+    "httpclires": {
+      "appenders": [
+        "stdout",
+        "httpclires"
+      ],
+      "level": "info"
+    },
+    "err": {
+      "appenders": [
+        "stdout",
+        "err"
+      ],
+      "level": "error"
+    },
+    "oth": {
+      "appenders": [
+        "stdout",
+        "oth"
+      ],
+      "level": "info"
+    }
+  }
+}
